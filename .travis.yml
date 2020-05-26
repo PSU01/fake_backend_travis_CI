@@ -5,8 +5,8 @@ services:
 
 before_install:
   - './.travis/main.sh'
-  - 'make network'
-  - 'make volume'
+#  - 'make network'
+#  - 'make volume'
 
 script:
   - 'make image'
