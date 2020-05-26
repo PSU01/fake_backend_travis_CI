@@ -5,7 +5,7 @@ services:
 
 before_install:
   - './.travis/main.sh'
-  - 'make network'
+# - 'make network'
   - 'make volume'
 
 script:
